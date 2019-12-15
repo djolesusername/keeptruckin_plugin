@@ -7,8 +7,7 @@
         {
             "matches":["https://web.keeptruckin.com/"],
             "js": ["script.js"]
-           
-        }
+                   }
     ],
     "background": {
         "scripts": ["background.js"]
