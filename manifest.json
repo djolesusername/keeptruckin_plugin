@@ -1,0 +1,19 @@
+
+{
+    "manifest_version": 2, 
+    "version": "1.01",
+    "name": "kt to mpps",
+    "content_scripts": [
+        {
+            "matches":["https://web.keeptruckin.com/"],
+            "js": ["script.js"]
+           
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }, 
+    "permissions": ["clipboardWrite", "notifications"]
+
+
+}
