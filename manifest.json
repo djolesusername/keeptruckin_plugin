@@ -7,7 +7,11 @@
         {
             "matches":["https://web.keeptruckin.com/"],
             "js": ["script.js"]
-                   }
+                   }, 
+                   {
+                    "matches":["https://att.fleetcomplete.com/web/fc/map"],
+                    "js": ["script2.js"]
+                           }
     ],
     "background": {
         "scripts": ["background.js"]
